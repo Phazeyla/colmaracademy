@@ -1,0 +1,260 @@
+html {
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+/* Header */
+
+
+header {
+  display: flex;
+  height: 64px;
+  position: ;
+  align-items: center;
+  z-index: 1;
+  margin: 0;
+  top: 0;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+
+}
+
+header img {
+  height: 32px;
+
+}
+
+header a, a:visited {
+  text-decoration: none;
+}
+
+
+
+
+/* Banner */
+
+
+.banner {
+  display: flex;
+  background-color: grey;
+  margin-top: 64px;
+}
+
+
+.banner img {
+  width: 60%;
+  height: 60%;
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.bannertext {
+  padding-left: 24px;
+}
+
+
+/* Main Content */
+
+.maincontent {
+  display: flex;
+
+}
+
+
+
+/* Left Column */
+
+.leftcolumn {
+  padding-left: 24px;
+  margin-top: 32px;
+  padding-right: 24px;
+  margin-bottom: 32px;
+}
+
+.leftcolumn img {
+  width: 700px;
+  height: auto;
+}
+
+.practicingtext {
+  width:;
+}
+
+/* Right Column */
+
+.rightcolumn {
+  width: 100%;
+  margin-top: 32px;
+  padding-left: 16px;
+  margin-bottom: 32px;
+
+}
+
+.rightcolumn img {
+  width: 150px;
+  height: auto;
+}
+
+.orientation {
+  display: flex;
+  align-items: center;
+}
+
+.campus {
+  display: flex;
+  align-items: center;
+}
+
+.lecture {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+
+}
+
+/* Courses - First Row */
+
+.coursestitle {
+  text-align: center;
+}
+
+.courses {
+  background-color: gray;
+}
+
+.firstrow {
+  display: flex;
+  padding-left: 72px;
+  padding-right: 72px;
+
+}
+
+.firstrow img {
+  width: 350px;
+
+}
+
+.softengtext {
+  width: 300px;
+}
+
+.softarttext {
+  width: 300px;
+}
+
+.designtext {
+  width: 300px;
+}
+
+.softeng {
+  background-color: lightgray;
+  margin-bottom:  32px;
+  padding-bottom: px;
+  margin-right: 32px;
+}
+
+.compart {
+  background-color: lightgray;
+  margin-right: 32px;
+  margin-bottom: 32px;
+}
+
+.design {
+  background-color: lightgray;
+  margin-bottom: 32px;
+
+}
+
+/* Courses - Second Row */
+
+
+.secondrow {
+  display: flex;
+  padding-left: 72px;
+  padding-right: 72px;
+
+}
+
+.secondrow img {
+  width: 350px;
+}
+
+.datatext {
+  width: 300px;
+}
+
+.businesstext {
+  width: 300px;
+}
+
+.marketingtext {
+  width: 300px;
+}
+
+.data {
+  background-color: lightgray;
+  margin-right: 32px;
+}
+
+.business {
+  background-color: lightgray;
+  margin-right: 32px;
+}
+
+.marketing {
+  background-color: lightgray;
+
+}
+
+/* Research */
+
+.research {
+  display: flex;
+}
+
+.researchtitle {
+  text-align: center;
+}
+
+video {
+  margin-left: 24px;
+}
+
+.videotext {
+  width: 600px;
+  margin-left: 24px;
+}
+
+
+.thesis1 img {
+  width: 150px;
+}
+
+.thesis2 img {
+  width: 150px;
+}
+
+.thesis1 {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+  padding-left: 16px;
+}
+
+.thesis2 {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.thesiscolumn {
+  margin-left: 24px;
+}
