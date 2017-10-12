@@ -3,6 +3,8 @@
   <head>
     <link href="./resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resources/css/favicon-16x16.png">
 
     <title>Colmar Academy</title>
   </head>
@@ -12,25 +14,46 @@
 
     <div class="header">
     <header>
-        <img src="./resources/images/ic-logo.svg">
-        <p><span>COLMARACADEMY</span></p>
+
+      <div class="headerandlogo">
+          <img id="logo" src="./resources/images/ic-logo.svg" alt="logo">
+        <div class="headingtitle">
+          <p>COLMAR<span>ACADEMY</span></p>
+        </div>
+      </div>
+
+      <div id="mobilelogos">
+
+          <span><a href="#"><img src="./resources/images/ic-on-campus.svg" alt=mobilecampuslogo></a></span>
+          <span><a href="#"><img src="./resources/images/ic-online.svg" alt="mobileonlinelogo"></a></span>
+          <span><a href="#"><img src="./resources/images/ic-login.svg" alt="mobileloginlogo"></a></span>
+
+      </div>
+
         <nav>
           <a href="index.html">On campus</a>
           <a href="#">Online</a>
           <a href="#">For companies</a>
+          <a href="#" id="headerbutton">Sign In</a>
         </nav>
+
+
     </header>
   </div>
 
   <!-- Banner -->
 
   <div class="banner">
-      <img src="./resources/images/banner.jpg" alt="girls studying">
+    <img src="./resources/images/banner.jpg" class="bannerimage" alt="girls studying">
     <div class="bannertext">
       <h1>Learn something new everyday</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipiscing alit</p>
-      <div class="bannerbutton"><p>Start Here</p></div>
+      <h2>Lorem ipsum dolor sit amet consectetur adipiscing alit</h2>
+      <div id="bannerbutton">
+        <a href=""><p>Start Here</p></a>
+      </div>
+
     </div>
+
   </div>
 
 
@@ -46,10 +69,10 @@
       <img src="./resources/images/information-main.jpg" alt="student reading a book">
       <div class="practicingtext">
         <h1>It doesn't hurt to keep practicing</h1>
-        <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus nec consequat
+        <h2>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus nec consequat
         neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor
-        consequat, tristique ligula"</p>
-        <p>Emanuel, Sr Strategist at Hiring.com</p>
+        consequat, tristique ligula"</h2>
+        <p>-Emanuel, Sr Strategist at Hiring.com</p>
       </div>
 
     </div>
@@ -59,10 +82,13 @@
 
     <div class="rightcolumn">
 
+
+
       <div class="orientation">
         <div class="orientimg">
-          <img src="./resources/images/information-orientation.jpg" alt="people on path">
+          <img src="./resources/images/information-orientation.jpg" alt="people walking">
         </div>
+        <img id="orientmobile" src="./resources/images/information-orientation-mobile.jpg" alt="people walking mobile">
         <div class="orientationtext">
           <h1>Orientation date</h1>
           <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
@@ -70,10 +96,14 @@
         </div>
       </div>
 
+
+
+
       <div class="campus">
         <div class="campusimg">
           <img src="./resources/images/information-campus.jpg" alt="students studying">
         </div>
+        <img id="campusmobile" src="./resources/images/information-campus-mobile.jpg" alt="students studying mobile">
         <div class="campustext">
           <h1>Our Campus</h1>
           <p>Find which campus is close by you</p>
@@ -81,10 +111,13 @@
         </div>
       </div>
 
+
+
       <div class="lecture">
         <div class="lectureimg">
           <img src="./resources/images/information-guest-lecture.jpg" alt="man with glasses">
         </div>
+        <img id="lecturemobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="man with glasses mobile">
         <div class="lecturetext">
           <h1>Our guest lecture</h1>
           <p>Join a keynote with Oliver Sack about music in medical treatment</p>
@@ -99,37 +132,48 @@
 
 <!-- Courses -->
 
-<div class="coursestitle">
-  <h1>Start Learning</h1>
-</div>
+
 
 <div class="courses">
+
+  <div class="coursestitle">
+    <h1>Start Learning</h1>
+  </div>
+
+  <div id="mobilecourses">
+    <p>Software engineering</p>
+    <p>Computer art</p>
+    <p>Design</p>
+    <p>Data</p>
+    <p>Business</p>
+    <p>Marketing</p>
+  </div>
 
   <div class="firstrow">
 
     <div class="softeng">
-      <img src="./resources/images/course-software.jpg">
+      <img src="./resources/images/course-software.jpg" alt="two monitors">
       <div class="softengtext">
         <h1>Software engineering</h1>
-        <p>COURSES</p>
+        <h2>COURSES</h2>
         <p>Web Development, Mobile Development, iOT, APIs</p>
       </div>
     </div>
 
     <div class="compart">
-      <img src="./resources/images/course-computer-art.jpg">
+      <img src="./resources/images/course-computer-art.jpg" alt="cellphone">
       <div class="softarttext">
         <h1>Computer art</h1>
-        <p>COURSES</p>
+        <h2>COURSES</h2>
         <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
       </div>
     </div>
 
     <div class="design">
-      <img src="./resources/images/course-design.jpg">
+      <img src="./resources/images/course-design.jpg" alt="camera">
       <div class="designtext">
         <h1>Design</h1>
-        <p>COURSES</p>
+        <h2>COURSES</h2>
         <p>User Experience Design, User Research, Visual Design</p>
       </div>
     </div>
@@ -139,28 +183,28 @@
     <div class="secondrow">
 
       <div class="data">
-        <img src="./resources/images/course-data.jpg">
+        <img src="./resources/images/course-data.jpg" alt="laptop">
         <div class="datatext">
           <h1>Data</h1>
-          <p>COURSES</p>
+          <h2>COURSES</h2>
           <p>Data Science, Big Data, SQL, Data Visualization</p>
         </div>
       </div>
 
       <div class="business">
-        <img src="./resources/images/course-business.jpg">
+        <img src="./resources/images/course-business.jpg" alt="chess">
         <div class="businesstext">
           <h1>Business</h1>
-          <p>COURSES</p>
+          <h2>COURSES</h2>
           <p>Product Development, Business Development, Startup</p>
         </div>
       </div>
 
       <div class="marketing">
-        <img src="./resources/images/course-marketing.jpg">
+        <img src="./resources/images/course-marketing.jpg" alt="smartwatch">
         <div class="marketingtext">
           <h1>Marketing</h1>
-          <p>COURSES<p>
+          <h2>COURSES<h2>
           <p>Analytics, Content Marketing, Mobile Marketing</p>
         </div>
       </div>
@@ -169,21 +213,28 @@
   </div>
 
     <!-- Research -->
-    <div class="researchtitle">
-      <h1>Thesis Exhibit</h1>
-    </div>
+
+<div class="researchbackgroundcolor">
+
+
+  <div class="researchtitle">
+    <h1>Thesis Exhibit</h1>
+  </div>
+
 
     <div class="research">
 
-  <div class="videocolumn">
-    <video src="./resources/videos/thesis.mp4" width="700" height="auto" controls></video>
-    <div class="videotext">
-      <h1>Reimagine urban</h1>
-      <p>"Curabitur vitae libero in lipsum porttitor consequat. Aliquam et commmodo lectus,
-        nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam
-        eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
-    </div>
-  </div>
+
+        <div class="videocolumn">
+          <video class="center" src="./resources/videos/thesis.mp4" width="700" height="auto" controls></video>
+          <div class="videotext">
+            <h1>Reimagine urban</h1>
+            <p>"Curabitur vitae libero in lipsum porttitor consequat. Aliquam et commmodo lectus,
+              nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam
+              eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+          </div>
+        </div>
+
 
 
 
@@ -191,16 +242,16 @@
       <div class="thesiscolumn">
 
         <div class="thesis1">
-          <img src="./resources/images/thesis-fisma.jpg">
+          <img src="./resources/images/thesis-fisma.jpg" alt="notes">
           <div class="thesis1text">
-            <h1>Fisma: Design and Prototpe</h1>
+            <h1>Fisma: Design and Prototype</h1>
             <p>Designer showcase of new prototype product</p>
           </div>
         </div>
 
 
         <div class="thesis2">
-          <img src="./resources/images/thesis-now-and-then.jpg">
+          <img src="./resources/images/thesis-now-and-then.jpg" alt="empire state building">
           <div class="thesis2text">
             <h1>Now and then</h1>
             <p>Research study about New York</p>
@@ -210,6 +261,18 @@
       </div>
 
     </div>
+  </div>
+
+    <div class="footer">
+      <footer>
+        <p>©2016 Colmar Academy. All rights reserved</p>
+        <nav>
+          <a href="#">Terms</a>
+          <a href="#">Privacy</a>
+        </nav>
+      </footer>
+    </div>
+
 
 
 
