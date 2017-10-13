@@ -220,6 +220,7 @@ header a, a:visited {
   background-color: #4B5887;
   border-bottom: solid #080E3B 0.5px;
   width: 100%;
+  margin: auto;
 
 }
 
@@ -316,7 +317,8 @@ header a, a:visited {
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 16px;
-  border-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 
 }
 
@@ -363,6 +365,8 @@ header a, a:visited {
   background-color: #CDD1E0;
   border-bottom: solid #080E3B 0.5px;
   flex-shrink: 0;
+  margin: auto;
+  justify-content: center;
 }
 
 #mobilecourses {
@@ -538,6 +542,7 @@ header a, a:visited {
 .research {
   display: flex;
   padding-bottom: 32px;
+  margin: auto;
 
 }
 
@@ -552,6 +557,7 @@ header a, a:visited {
 
 video {
   margin-left: 24px;
+  border-radius: 10px;
 }
 
 .videotext {
@@ -586,7 +592,8 @@ video {
   display: flex;
   align-items: center;
   background-color: #CDD1E0;
-  border-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
   padding-left: 16px;
   padding-top: 16px;
   padding-bottom: 16px;
